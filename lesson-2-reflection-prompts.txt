@@ -10,10 +10,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	We can compare the staged item with the recent commit using the "git diff" command.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	While making experimental changes in the code we can use branches to not tangled with the main commits.
+
 How do the diagrams help you visualize the branch structure?
+
+	We can see which commits is accessible from the head by the diagrams.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
